@@ -18,6 +18,7 @@ $(call inherit-product, device/redmi/begonia/device.mk)
 
 # Inherit some common LineageOS stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, packages/apps/Calculator-IOS/config.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
